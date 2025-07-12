@@ -55,7 +55,7 @@ body {
 
 /* Sample CSS for the WHY word */
 
-.whyWLetter {
+.why-style span {
   font-size: 60px;
   font-weight: bold;
   color: #ffd700;
@@ -64,27 +64,11 @@ body {
   font-family: 'Rubik Mono One', monospace;
 }
 
-.whyHLetter {
-  font-size: 48px;
-  font-weight: 700;
-  color: rgb(155, 89, 182) ;
-  text-decoration: line-through;
-  text-transform: lowercase;
-  font-family: 'Raleway Dots', cursive;
-}
 
-.whyYLetter {
-  font-size: 30px;
-  font-weight: normal;
-  color: hsl(200, 80%, 60%);
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Press Start 2P', cursive;
-}
 
 /* DID word */
 
-.didDLetter {
+.did-style span {
  font-size: 50px;
   font-weight: 400;
   color: #00ff7f;
@@ -94,29 +78,12 @@ body {
 }
 
 
-.didILetter {
- font-size: 56px;
-  font-weight: bold;
-  color: #e74c3c;
-  text-decoration: none;
-  text-transform: capitalize;
-  font-family: 'Special Elite', cursive;
-}
 
-
-.didDTwoLetter {
- font-size: 42px;
-  font-weight: 700;
-  color: rgb(52, 152, 219);
-  text-decoration: underline;
-  text-transform: lowercase;
-  font-family: 'Piazzolla', serif;
-}
 
 
 /* THE word */
 
-.theTLetter {
+.the-style span {
  font-size: 45px;
   font-weight: 400;
   color: hsl(180, 60%, 50%);
@@ -126,49 +93,12 @@ body {
 }
 
 
-.theHLetter {
- font-size: 38px;
-  font-weight: normal;
-  color: #ffa500;
-  text-decoration: overline;
-  text-transform: lowercase;
-  font-family: 'Ceviche One', cursive;
-}
 
-
-.theELetter {
- font-size: 52px;
-  font-weight: 700;
-  color: rgb(255, 20, 147);
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Special Elite', cursive;
-}
 
 
 /* FRONT-END word */
 
-.frontendFLetter
-
-.frontendRLetter 
-
-
-.frontendOLetter 
-
-
-.frontendNLetter 
-
-
-.frontendTLetter 
-
-
-.frontendELetter 
-
-
-.frontendNTwoLetter 
-
-
-.frontendDLetter  {
+.frontend-style {
    font-size: 44px;
   font-weight: bold;
   color: white;
@@ -182,23 +112,7 @@ body {
 
 /* DEVELOPER word */
 
-.developerDLetter 
-
-.developerELetter 
-
-.developerVLetter 
-
-.developerETwoLetter 
-
-.developerLLetter 
-
-.developerOLetter 
-
-.developerPLetter 
-
-.developerEThreeLetter 
-
-.developerRLetter {
+.developer-style span {
     font-size: 42px;
   font-weight: bold;
   color: white;
@@ -210,16 +124,10 @@ body {
 
 /* TAKE word */
 
-.takeTLetter 
-
-.takeALetter 
-
-.takeKLetter 
-
-.takeELetter {
+.take-syle span {
     font-size: 38px;
-  font-weight: 700
-  color #ff69b4;
+  font-weight: 700;
+  color: #ff69b4;
   text-decoration: none;
   font-family: 'Piazzolla', serif;
 }
@@ -229,34 +137,18 @@ body {
 .upULetter ,
 .upPLetter {
    font-size: 40px;
-  font-weight: bold
-  color rgb(52, 152, 219);
+  font-weight: bold;
+  color: rgb(52, 152, 219);
   text-decoration: none;
   font-family: 'Ceviche One', cursive;
 }
 
 /* GARDENING word */
 
-.gardeningGLetter 
-
-.gardeningALetter 
-
-.gardeningRLetter 
-
-.gardeningDLetter 
-
-.gardeningELetter 
-
-.gardeningNLetter 
-
-.gardeningILetter 
-
-.gardeningNTwoLetter 
-
-.gardeningGTwoLetter {
+.gardening-style span {
  font-size: 34px;
-  font-weight: normal
-  color hsl(120, 60%, 50%);
+  font-weight: normal;
+  color: hsl(120, 60%, 50%);
   text-decoration: line-through;
   text-transform: uppercase;
   font-family: 'Special Elite', cursive ;
@@ -264,145 +156,81 @@ body {
 
 /* BECAUSE word */
 
-.becauseBLetter 
-
-.becauseELetter 
-
-.becauseCLetter 
-
-.becauseALetter 
-
-.becauseULetter 
-
-.becauseSLetter 
-
-.becauseETwoLetter {
+.because-style span {
    font-size: 38px;
-  font-weight: bold
-  color #ff69b4;
+  font-weight: bold;
+  color: #ff69b4;
   text-decoration: none;
   font-family: 'Piazzolla', serif;
 }
 
 /* THEY word */
 
-.theyTLetter 
-
-.theyHLetter 
-
-.theyELetter 
-
-.theyYLetter {
-   font-size: 40px;
-  font-weight: 700
-  color #ff6347;
+.they-style span {
+  
+  font-size: 40px;
+  font-weight: 700;
+  color: #ff6347;
   text-decoration: underline;
   font-family: 'Rubik Mono One', monospace;
 }
 
 /* WANTED word */
 
-.wantedWLetter 
-
-.wantedALetter 
-
-.wantedNLetter 
-
-.wantedTLetter 
-
-.wantedELetter 
-
-.wantedDLetter {
+.wanted-style span {
    font-size: 40px;
-  font-weight: normal
-  color #00ced1;
+  font-weight: normal;
+  color: #00ced1;
   text-decoration: overline;
   font-family: 'Press Start 2P', cursive;
 }
 
 /* TO word */
 
-.toTLetter 
-.toOLetter {
+.to-style span {
    font-size: 36px;
-  font-weight: 400
-  color #c0392b;
+  font-weight: 400;
+  color: #c0392b;
   text-decoration: line-through;
   font-family: 'Raleway Dots', cursive;
 }
 
 /* IMPROVE word */
 
-.improveILetter 
-
-.improveMLetter 
-
-.improvePLetter 
-
-.improveRLetter 
-
-.improveOLetter 
-
-.improveVLetter 
-
-.improveELetter {
+.improve-style span {
    font-size: 42px;
-  font-weight: bold
-  color #7fff00;
+  font-weight: bold;
+  color: #7fff00;
   text-decoration: none;
   font-family: 'Ceviche', cursive;
 }
 
 /* THEIR word */
-
-.theirTLetter 
-
-.theirHLetter 
-
-.theirELetter 
-
-.theirILetter 
-
-.theirRLetter {
+ 
+.their-style span {
  font-size: 38px;
-  font-weight: 700
-  color white;
+  font-weight: 700;
+  color: white;
   text-decoration: underline;
   font-family: 'Special Elite', cursive;
 }
 
 /* ROOT word */
 
-.rootRLetter 
-
-.rootOLetter 
-
-.rootOTwoLetter 
-
-.rootTLetter {
+.root-style span {
  font-size: 40px;
-  font-weight: normal
-  color #ff8c00;
+  font-weight: normal;
+  color: #ff8c00;
   text-decoration: overline;
   font-family: 'Rubik Mono One', monospace;
 }
 
 /* SKILLS word */
 
-.skillsSLetter 
-
-.skillsKLetter 
-
-.skillsILetter 
-
-.skillsLLetter 
-
-.skillsLTwoLetter 
-
-.skillsSTwoLetter {
+.skills-style span {
 font-size: 46px;
-  font-weight: 400
-  color rgb(225, 215, 0);
+  font-weight: 400;
+  color: rgb(225, 215, 0);
   text-decoration: none;
   font-family: 'Piazzolla', serif;
 }
@@ -412,24 +240,24 @@ font-size: 46px;
 
 .hyphen {
 font-size: 32px;
-  font-weight: 400
-  color #888;
+  font-weight: 400;
+  color: #888;
   text-decoration: none;
   font-family: 'Press Start 2P', cursive;
 }
 
 .exclamation-mark {
 font-size: 60px;
-  font-weight: bold
-  color #ff3b3b;
+  font-weight: bold;
+  color: #ff3b3b;
   text-decoration: underline;
   font-family: 'Rubik Mono One', monospace;
 }
 
 .question-mark {
 font-size: 60px;
-  font-weight: normal
-  color #ffd700;
+  font-weight: normal;
+  color: #ffd700;
   text-decoration: overline;
   font-family: 'Ceviche One', cursive;
 }
